@@ -1,0 +1,59 @@
+# Docker ignore file for openSIS Classic
+# Ignore Docker-related files when building the image
+
+.git/
+.gitignore
+README.md
+README-Docker.md
+docker-compose.yml
+.dockerignore
+
+# Development files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Backup files
+*.backup
+*.bak
+backup/
+
+# Node modules (if any)
+node_modules/
+npm-debug.log*
+
+# PHP specific
+composer.phar
+vendor/
+
+# IDE files
+*.sublime-project
+*.sublime-workspace
+
+# Database dumps
+*.sql.gz
+*.sql.bz2
+
+# Configuration files that might contain sensitive data
+config.local.php
+local.config.php
